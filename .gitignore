@@ -1,0 +1,6 @@
+# Model file is ~2.4 GB - too big for GitHub. Keep it out of git.
+models/*.gguf
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

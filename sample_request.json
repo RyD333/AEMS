@@ -1,0 +1,8 @@
+{
+  "use_case_name": "4.3 Manage Holiday Calendar",
+  "operation": "Add",
+  "description": "This use case allows an HR Administrator to add a new holiday to the organisation's yearly holiday calendar so that it is reflected in attendance and leave calculations.",
+  "actors": "HR Administrator",
+  "basic_flow": "1. The HR Administrator logs in to the HRMS portal.\n2. The HR Administrator navigates to Admin > Holiday Calendar.\n3. The HR Administrator clicks 'Add Holiday'.\n4. The system displays a form with the fields: Holiday Name (V100, mandatory), Holiday Date (date, mandatory), Holiday Type (dropdown: National/State/Optional, mandatory), Applicable Office (dropdown, mandatory), Description (V250, optional), Status (Active/Inactive).\n5. The HR Administrator fills in the details and clicks 'Save'.\n6. The system validates the mandatory fields and checks that no holiday already exists on the same date for the selected office.\n7. The system saves the record and displays the message 'Holiday added successfully'.\n8. The system refreshes the holiday list.",
+  "alternate_flow": "A1. Mandatory field missing: the system highlights the field and shows 'Please fill all mandatory fields'.\nA2. Duplicate holiday: the system shows 'A holiday already exists on this date for the selected office'.\nA3. The HR Administrator clicks 'Cancel': the form closes without saving."
+}

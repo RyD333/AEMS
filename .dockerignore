@@ -1,0 +1,12 @@
+.git
+.gitignore
+.gcloudignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+tests/
+*.md
+sample_request.json
+requirements-dev.txt
+*.ipynb

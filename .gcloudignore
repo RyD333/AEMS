@@ -1,0 +1,10 @@
+# Files NOT uploaded to Google Cloud when deploying.
+# Deliberately does NOT include ".gitignore" contents: gcloud would otherwise
+# skip models/*.gguf and the container would build without the model.
+.git
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+tests/
